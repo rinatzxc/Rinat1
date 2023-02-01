@@ -1,0 +1,12 @@
+{% extends 'web_lib/books.html' %} 
+
+{% block content %}
+    <br>
+    <form action="" method ="POST">
+     {% csrf_token %}
+     <div class="form-group">
+          {{form.as_p }}
+        </div>
+         <button type="submit" class="btn btn-primary">Выполнить</button>
+    </form>
+{% endblock %}
