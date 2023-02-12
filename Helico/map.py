@@ -3,7 +3,7 @@ from utils import randcell
 from utils import randcell2
 
 
-CELL_TYPES = "🟩🌲🌊🏥🏪🔥"
+CELL_TYPES = "❎🌲🌊 🏥🏪🔥"
 
 TREE_BONUS = 100
 UPGRADE_COST = 5000
